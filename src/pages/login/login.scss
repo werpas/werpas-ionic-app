@@ -1,3 +1,31 @@
 page-login {
+    
+    .login-content {
+        
+        .logo-row {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+
+        .login-box {
+            padding: 20px 20px 0px 20px;
+            margin-top: 30px;
+        }
+
+        button {
+            border-radius: 30px !important;
+            padding-left: 30px !important;
+            font-size: 0.9em;
+            
+            border: 1px solid #ffffff;
+            border-bottom: 0px !important;
+            box-shadow: none !important;
+        }
+        
+        .register-btn {
+            color: map-get($colors,dark);
+            font-size: 0.8em;
+        }
+    }
 
 }
